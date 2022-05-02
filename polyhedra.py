@@ -20,7 +20,7 @@ star=np.array([[0,1,0,0,0,0,0,1,1],
 [1,1,1,1,1,1,1,1,0]],dtype=object)
 
 
-def random(n):  #generate random embedding of n points
+def random(n):  #generates random embedding of n points
     np.random.seed(341)
     randnums=np.zeros(n,dtype=object)
     for i in range(0,n):
